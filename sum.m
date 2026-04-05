@@ -1,0 +1,11 @@
+a=2;
+f=5;
+fs=100;
+n=0:1/fs:1;
+x=a*sin(2*pi*f*n);
+y=a*cos(2*pi*f*n);
+z=x.*y;
+stem(n,z);
+title("Sine Wave");
+xlabel("Time");
+ylabel("Amplitude");

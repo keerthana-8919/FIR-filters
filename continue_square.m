@@ -1,0 +1,10 @@
+a=2;
+f=2;
+fs=100;
+t=0:0.01:1;
+sq=a*square(2*pi*f*t);
+figure;
+plot(t,sq,'b');
+xlabel("Time");
+ylabel("Amplitude");
+title("Step Signal");
